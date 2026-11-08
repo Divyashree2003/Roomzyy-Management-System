@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="980" viewBox="0 0 1180 980">
+  <rect width="1180" height="980" fill="#ffffff"/>
+
+  <!-- Tenant -->
+  <rect x="430" y="24" width="320" height="300" fill="#ffffff" stroke="#111111" stroke-width="1.6"/>
+  <line x1="430" y1="64" x2="750" y2="64" stroke="#111111" stroke-width="1.4"/>
+  <line x1="430" y1="214" x2="750" y2="214" stroke="#111111" stroke-width="1.4"/>
+  <text x="590" y="48" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" fill="#111111">Tenant</text>
+  <text x="448" y="90" font-family="Times New Roman" font-size="16" fill="#111111">id: ObjectId</text>
+  <text x="448" y="112" font-family="Times New Roman" font-size="16" fill="#111111">gender: String</text>
+  <text x="448" y="134" font-family="Times New Roman" font-size="16" fill="#111111">idProofType: String</text>
+  <text x="448" y="156" font-family="Times New Roman" font-size="16" fill="#111111">status: String</text>
+  <text x="448" y="178" font-family="Times New Roman" font-size="16" fill="#111111">rentDueDay: Number</text>
+  <text x="448" y="200" font-family="Times New Roman" font-size="16" fill="#111111">joinDate: Date</text>
+  <text x="448" y="240" font-family="Times New Roman" font-size="16" fill="#111111">selectRoom()</text>
+  <text x="448" y="262" font-family="Times New Roman" font-size="16" fill="#111111">registerVisitor()</text>
+  <text x="448" y="284" font-family="Times New Roman" font-size="16" fill="#111111">viewRent()</text>
+  <text x="448" y="306" font-family="Times New Roman" font-size="16" fill="#111111">bookMeal()</text>
+
+  <!-- Associations -->
+  <line x1="520" y1="324" x2="180" y2="500" stroke="#111111" stroke-width="1.5"/>
+  <line x1="590" y1="324" x2="590" y2="500" stroke="#111111" stroke-width="1.5"/>
+  <line x1="660" y1="324" x2="990" y2="500" stroke="#111111" stroke-width="1.5"/>
+  <text x="500" y="360" font-family="Times New Roman" font-size="15" fill="#111111">1</text>
+  <text x="604" y="360" font-family="Times New Roman" font-size="15" fill="#111111">1</text>
+  <text x="668" y="360" font-family="Times New Roman" font-size="15" fill="#111111">1</text>
+  <text x="168" y="488" font-family="Times New Roman" font-size="16" fill="#111111">*</text>
+  <text x="574" y="488" font-family="Times New Roman" font-size="16" fill="#111111">*</text>
+  <text x="1000" y="488" font-family="Times New Roman" font-size="16" fill="#111111">*</text>
+  <text x="300" y="400" text-anchor="middle" font-family="Times New Roman" font-size="16" font-style="italic" fill="#111111" transform="rotate(-28 300 400)">Registers</text>
+  <text x="548" y="420" text-anchor="middle" font-family="Times New Roman" font-size="16" font-style="italic" fill="#111111">Views</text>
+  <text x="860" y="400" text-anchor="middle" font-family="Times New Roman" font-size="16" font-style="italic" fill="#111111" transform="rotate(28 860 400)">Books</text>
+
+  <!-- Visitor -->
+  <rect x="40" y="520" width="280" height="292" fill="#ffffff" stroke="#111111" stroke-width="1.6"/>
+  <line x1="40" y1="558" x2="320" y2="558" stroke="#111111" stroke-width="1.4"/>
+  <line x1="40" y1="708" x2="320" y2="708" stroke="#111111" stroke-width="1.4"/>
+  <text x="180" y="544" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" fill="#111111">Visitor</text>
+  <text x="56" y="584" font-family="Times New Roman" font-size="16" fill="#111111">id: ObjectId</text>
+  <text x="56" y="606" font-family="Times New Roman" font-size="16" fill="#111111">name: String</text>
+  <text x="56" y="628" font-family="Times New Roman" font-size="16" fill="#111111">phone: String</text>
+  <text x="56" y="650" font-family="Times New Roman" font-size="16" fill="#111111">visitDate: Date</text>
+  <text x="56" y="672" font-family="Times New Roman" font-size="16" fill="#111111">purpose: String</text>
+  <text x="56" y="694" font-family="Times New Roman" font-size="16" fill="#111111">status: String</text>
+  <text x="56" y="734" font-family="Times New Roman" font-size="16" fill="#111111">approve()</text>
+  <text x="56" y="756" font-family="Times New Roman" font-size="16" fill="#111111">checkIn()</text>
+  <text x="56" y="778" font-family="Times New Roman" font-size="16" fill="#111111">checkOut()</text>
+
+  <!-- RentPayment -->
+  <rect x="450" y="520" width="280" height="270" fill="#ffffff" stroke="#111111" stroke-width="1.6"/>
+  <line x1="450" y1="558" x2="730" y2="558" stroke="#111111" stroke-width="1.4"/>
+  <line x1="450" y1="708" x2="730" y2="708" stroke="#111111" stroke-width="1.4"/>
+  <text x="590" y="544" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" fill="#111111">RentPayment</text>
+  <text x="466" y="584" font-family="Times New Roman" font-size="16" fill="#111111">id: ObjectId</text>
+  <text x="466" y="606" font-family="Times New Roman" font-size="16" fill="#111111">month: String</text>
+  <text x="466" y="628" font-family="Times New Roman" font-size="16" fill="#111111">amount: Number</text>
+  <text x="466" y="650" font-family="Times New Roman" font-size="16" fill="#111111">dueDate: Date</text>
+  <text x="466" y="672" font-family="Times New Roman" font-size="16" fill="#111111">status: String</text>
+  <text x="466" y="694" font-family="Times New Roman" font-size="16" fill="#111111">method: String</text>
+  <text x="466" y="734" font-family="Times New Roman" font-size="16" fill="#111111">payRent()</text>
+  <text x="466" y="756" font-family="Times New Roman" font-size="16" fill="#111111">markPaid()</text>
+
+  <!-- MealAttendance -->
+  <rect x="850" y="520" width="290" height="292" fill="#ffffff" stroke="#111111" stroke-width="1.6"/>
+  <line x1="850" y1="558" x2="1140" y2="558" stroke="#111111" stroke-width="1.4"/>
+  <line x1="850" y1="708" x2="1140" y2="708" stroke="#111111" stroke-width="1.4"/>
+  <text x="995" y="544" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" fill="#111111">MealAttendance</text>
+  <text x="866" y="584" font-family="Times New Roman" font-size="16" fill="#111111">id: ObjectId</text>
+  <text x="866" y="606" font-family="Times New Roman" font-size="16" fill="#111111">date: Date</text>
+  <text x="866" y="628" font-family="Times New Roman" font-size="16" fill="#111111">meal: String</text>
+  <text x="866" y="650" font-family="Times New Roman" font-size="16" fill="#111111">optedIn: Boolean</text>
+  <text x="866" y="672" font-family="Times New Roman" font-size="16" fill="#111111">present: Boolean</text>
+  <text x="866" y="694" font-family="Times New Roman" font-size="16" fill="#111111">diet: String</text>
+  <text x="866" y="734" font-family="Times New Roman" font-size="16" fill="#111111">bookMeal()</text>
+  <text x="866" y="756" font-family="Times New Roman" font-size="16" fill="#111111">markPresent()</text>
+
+  <text x="590" y="940" text-anchor="middle" font-family="Times New Roman" font-size="22" font-weight="700" fill="#111111">Fig 4.2.1.3 UML Diagram</text>
+</svg>

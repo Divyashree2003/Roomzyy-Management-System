@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#111111"/>
+    </marker>
+  </defs>
+  <rect width="1500" height="760" fill="#ffffff"/>
+
+  <line x1="690" y1="173" x2="690" y2="342" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="810" y1="342" x2="810" y2="173" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="658" y="270" text-anchor="middle" font-family="Times New Roman" font-size="16" fill="#111111" transform="rotate(-90 658 270)">Staff &amp; Accounts</text>
+  <text x="842" y="270" text-anchor="middle" font-family="Times New Roman" font-size="16" fill="#111111" transform="rotate(-90 842 270)">Reports &amp; Dashboard</text>
+
+  <line x1="298" y1="430" x2="622" y2="430" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="622" y1="510" x2="298" y2="510" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="470" y="414" text-anchor="middle" font-family="Times New Roman" font-size="16" fill="#111111">Room, Rent &amp; Requests</text>
+  <text x="470" y="536" text-anchor="middle" font-family="Times New Roman" font-size="16" fill="#111111">Receipt &amp; Status</text>
+
+  <line x1="1202" y1="430" x2="878" y2="430" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="878" y1="510" x2="1202" y2="510" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1030" y="414" text-anchor="middle" font-family="Times New Roman" font-size="16" fill="#111111">Daily Operations</text>
+  <text x="1030" y="536" text-anchor="middle" font-family="Times New Roman" font-size="16" fill="#111111">Duties &amp; Records</text>
+
+  <circle cx="750" cy="470" r="128" fill="#ffffff" stroke="#111111" stroke-width="1.8"/>
+  <text x="750" y="448" text-anchor="middle" font-family="Times New Roman" font-size="26" font-weight="700" fill="#111111">Roomzyy</text>
+  <text x="750" y="478" text-anchor="middle" font-family="Times New Roman" font-size="18" fill="#111111">PG Management</text>
+  <text x="750" y="504" text-anchor="middle" font-family="Times New Roman" font-size="18" fill="#111111">System</text>
+
+  <rect x="545" y="55" width="410" height="118" fill="#ffffff" stroke="#111111" stroke-width="1.8"/>
+  <text x="750" y="122" text-anchor="middle" font-family="Times New Roman" font-size="28" font-weight="700" fill="#111111">Admin</text>
+
+  <rect x="48" y="365" width="250" height="210" fill="#ffffff" stroke="#111111" stroke-width="1.8"/>
+  <text x="173" y="478" text-anchor="middle" font-family="Times New Roman" font-size="28" font-weight="700" fill="#111111">Tenant</text>
+
+  <rect x="1202" y="365" width="250" height="210" fill="#ffffff" stroke="#111111" stroke-width="1.8"/>
+  <text x="1327" y="478" text-anchor="middle" font-family="Times New Roman" font-size="28" font-weight="700" fill="#111111">Staff</text>
+
+  <text x="750" y="710" text-anchor="middle" font-family="Times New Roman" font-size="22" font-weight="700" fill="#111111">Fig. 4.1.2.2 Context Flow Diagram</text>
+</svg>

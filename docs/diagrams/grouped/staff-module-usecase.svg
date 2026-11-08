@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="960" viewBox="0 0 1100 960">
+  <rect width="1100" height="960" fill="#ffffff"/>
+  <rect x="130" y="68" width="928" height="868" fill="none" stroke="#111111" stroke-width="1.6"/>
+  <text x="550" y="40" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="16" font-weight="700" fill="#111111">Roomzyy – PG Management System</text>
+  <line x1="108" y1="452" x2="268" y2="128" stroke="#111111" stroke-width="1.25"/>
+  <line x1="108" y1="452" x2="268" y2="268" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="268" x2="743" y2="218" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="268" x2="743" y2="268" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="268" x2="743" y2="318" stroke="#111111" stroke-width="1.25"/>
+  <line x1="108" y1="452" x2="268" y2="438" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="438" x2="743" y2="388" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="438" x2="743" y2="438" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="438" x2="743" y2="488" stroke="#111111" stroke-width="1.25"/>
+  <line x1="108" y1="452" x2="268" y2="608" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="608" x2="743" y2="558" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="608" x2="743" y2="608" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="608" x2="743" y2="658" stroke="#111111" stroke-width="1.25"/>
+  <line x1="108" y1="452" x2="268" y2="778" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="778" x2="743" y2="728" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="778" x2="743" y2="778" stroke="#111111" stroke-width="1.25"/>
+  <line x1="532" y1="778" x2="743" y2="828" stroke="#111111" stroke-width="1.25"/>
+  <ellipse cx="400" cy="128" rx="132" ry="26" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="400" y="132" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Login</text>
+  <ellipse cx="875" cy="218" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="222" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Manage Rooms</text>
+  <ellipse cx="875" cy="268" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="272" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Register Tenants</text>
+  <ellipse cx="875" cy="318" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="322" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Vacate Tenants</text>
+  <ellipse cx="400" cy="268" rx="132" ry="26" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="400" y="272" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Room &amp; Tenant Work</text>
+  <ellipse cx="875" cy="388" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="392" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Post Rent Demands</text>
+  <ellipse cx="875" cy="438" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="442" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Record Collections</text>
+  <ellipse cx="875" cy="488" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="492" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Record Utility Bills</text>
+  <ellipse cx="400" cy="438" rx="132" ry="26" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="400" y="442" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Rent &amp; Utilities</text>
+  <ellipse cx="875" cy="558" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="562" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Publish Mess Menu</text>
+  <ellipse cx="875" cy="608" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="612" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Update Maintenance</text>
+  <ellipse cx="875" cy="658" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="662" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Manage Visitors</text>
+  <ellipse cx="400" cy="608" rx="132" ry="26" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="400" y="612" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Daily Operations</text>
+  <ellipse cx="875" cy="728" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="732" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Mark Attendance</text>
+  <ellipse cx="875" cy="778" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="782" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Apply for Leave</text>
+  <ellipse cx="875" cy="828" rx="132" ry="22" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="875" y="832" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">View Salary</text>
+  <ellipse cx="400" cy="778" rx="132" ry="26" fill="#ffffff" stroke="#111111" stroke-width="1.5"/><text x="400" y="782" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Attendance &amp; Salary</text>
+  <circle cx="78" cy="430" r="20" fill="#ffffff" stroke="#111111" stroke-width="1.6"/><line x1="78" y1="450" x2="78" y2="502" stroke="#111111" stroke-width="1.6"/><line x1="48" y1="452" x2="108" y2="452" stroke="#111111" stroke-width="1.6"/><line x1="78" y1="502" x2="54" y2="542" stroke="#111111" stroke-width="1.6"/><line x1="78" y1="502" x2="102" y2="542" stroke="#111111" stroke-width="1.6"/><text x="78" y="564" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Staff</text>
+  <text x="594" y="908" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="12" fill="#111111">Fig. 4.3 Staff Module</text>
+</svg>

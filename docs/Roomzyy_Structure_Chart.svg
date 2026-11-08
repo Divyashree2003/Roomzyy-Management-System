@@ -1,0 +1,119 @@
+<svg viewBox="0 0 1400.0 520.0" xmlns="http://www.w3.org/2000/svg" style="background:#ffffff; font-family:Arial, sans-serif;">
+<style>
+  .box { fill:#ffffff; stroke:#000000; stroke-width:1.6; rx:1; }
+  .line { stroke:#000000; stroke-width:1.6; fill:none; }
+  .txt-root { font-size:16px; font-weight:bold; text-anchor:middle; dominant-baseline:central; fill:#000; }
+  .txt-l1 { font-size:12px; font-weight:bold; text-anchor:middle; dominant-baseline:central; fill:#000; }
+  .txt-l2 { font-size:11px; font-weight:bold; text-anchor:middle; dominant-baseline:central; fill:#000; }
+  .txt-leaf { font-size:10px; text-anchor:middle; dominant-baseline:central; fill:#000; }
+</style>
+<rect class="box" x="630.0" y="25.0" width="120.0" height="35.0"/>
+<text class="txt-root" x="690.0" y="42.5">Admin</text>
+<line class="line" x1="690.0" y1="60.0" x2="690.0" y2="92.5"/>
+<line class="line" x1="140.0" y1="92.5" x2="1240.0" y2="92.5"/>
+<line class="line" x1="140.0" y1="92.5" x2="140.0" y2="115.5"/>
+<line class="line" x1="330.0" y1="92.5" x2="330.0" y2="115.5"/>
+<line class="line" x1="540.0" y1="92.5" x2="540.0" y2="115.5"/>
+<line class="line" x1="875.0" y1="92.5" x2="875.0" y2="115.5"/>
+<line class="line" x1="1240.0" y1="92.5" x2="1240.0" y2="115.5"/>
+<rect class="box" x="87.5" y="115.5" width="105.0" height="34.0"/>
+<text class="txt-l1" x="140.0" y="132.5">Reports</text>
+<rect class="box" x="270.0" y="115.5" width="120.0" height="34.0"/>
+<text class="txt-l1" x="330.0" y="129.0">Attendance</text>
+<text class="txt-l1" x="330.0" y="136.0">Management</text>
+<rect class="box" x="487.5" y="115.5" width="105.0" height="34.0"/>
+<text class="txt-l1" x="540.0" y="132.5">App Users</text>
+<rect class="box" x="822.5" y="115.5" width="105.0" height="34.0"/>
+<text class="txt-l1" x="875.0" y="132.5">Masters</text>
+<rect class="box" x="1180.0" y="115.5" width="120.0" height="34.0"/>
+<text class="txt-l1" x="1240.0" y="129.0">Maintenance</text>
+<text class="txt-l1" x="1240.0" y="136.0">Management</text>
+<line class="line" x1="140.0" y1="149.5" x2="140.0" y2="185.0"/>
+<line class="line" x1="90.0" y1="185.0" x2="190.0" y2="185.0"/>
+<line class="line" x1="90.0" y1="185.0" x2="90.0" y2="207.5"/>
+<line class="line" x1="190.0" y1="185.0" x2="190.0" y2="207.5"/>
+<rect class="box" x="47.5" y="207.5" width="85.0" height="30.0"/>
+<text class="txt-l2" x="90.0" y="222.5">Daily Logs</text>
+<rect class="box" x="147.5" y="207.5" width="85.0" height="30.0"/>
+<text class="txt-l2" x="190.0" y="222.5">Monthly</text>
+<line class="line" x1="90.0" y1="237.5" x2="90.0" y2="274.5"/>
+<line class="line" x1="190.0" y1="237.5" x2="190.0" y2="274.5"/>
+<rect class="box" x="47.5" y="274.5" width="85.0" height="26.0"/>
+<text class="txt-leaf" x="90.0" y="287.5">Defaulters</text>
+<rect class="box" x="147.5" y="274.5" width="85.0" height="26.0"/>
+<text class="txt-leaf" x="190.0" y="287.5">Occupancy</text>
+<line class="line" x1="330.0" y1="149.5" x2="330.0" y2="245.0"/>
+<line class="line" x1="280.0" y1="245.0" x2="380.0" y2="245.0"/>
+<line class="line" x1="280.0" y1="245.0" x2="280.0" y2="274.5"/>
+<line class="line" x1="380.0" y1="245.0" x2="380.0" y2="274.5"/>
+<rect class="box" x="236.2" y="274.5" width="87.5" height="26.0"/>
+<text class="txt-leaf" x="280.0" y="287.5">Mess Attendance</text>
+<rect class="box" x="336.2" y="274.5" width="87.5" height="26.0"/>
+<text class="txt-leaf" x="380.0" y="287.5">Staff Attendance</text>
+<line class="line" x1="540.0" y1="149.5" x2="540.0" y2="245.0"/>
+<line class="line" x1="470.0" y1="245.0" x2="610.0" y2="245.0"/>
+<line class="line" x1="470.0" y1="245.0" x2="470.0" y2="274.5"/>
+<line class="line" x1="540.0" y1="245.0" x2="540.0" y2="274.5"/>
+<line class="line" x1="610.0" y1="245.0" x2="610.0" y2="274.5"/>
+<rect class="box" x="438.8" y="274.5" width="62.5" height="26.0"/>
+<text class="txt-leaf" x="470.0" y="287.5">Tenants</text>
+<rect class="box" x="508.8" y="274.5" width="62.5" height="26.0"/>
+<text class="txt-leaf" x="540.0" y="287.5">Staff</text>
+<rect class="box" x="578.8" y="274.5" width="62.5" height="26.0"/>
+<text class="txt-leaf" x="610.0" y="287.5">Admin</text>
+<line class="line" x1="875.0" y1="149.5" x2="875.0" y2="185.0"/>
+<line class="line" x1="750.0" y1="185.0" x2="1070.0" y2="185.0"/>
+<line class="line" x1="750.0" y1="185.0" x2="750.0" y2="207.5"/>
+<line class="line" x1="910.0" y1="185.0" x2="910.0" y2="207.5"/>
+<line class="line" x1="1070.0" y1="185.0" x2="1070.0" y2="207.5"/>
+<rect class="box" x="705.0" y="207.5" width="90.0" height="30.0"/>
+<text class="txt-l2" x="750.0" y="222.5">Rooms</text>
+<rect class="box" x="865.0" y="207.5" width="90.0" height="30.0"/>
+<text class="txt-l2" x="910.0" y="222.5">Tenants</text>
+<rect class="box" x="1025.0" y="207.5" width="90.0" height="30.0"/>
+<text class="txt-l2" x="1070.0" y="222.5">Employees</text>
+<line class="line" x1="750.0" y1="237.5" x2="750.0" y2="257.5"/>
+<line class="line" x1="697.5" y1="257.5" x2="802.5" y2="257.5"/>
+<line class="line" x1="697.5" y1="257.5" x2="697.5" y2="274.5"/>
+<rect class="box" x="673.8" y="274.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="697.5" y="287.5">Add</text>
+<line class="line" x1="750.0" y1="257.5" x2="750.0" y2="274.5"/>
+<rect class="box" x="726.2" y="274.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="750.0" y="287.5">Edit</text>
+<line class="line" x1="802.5" y1="257.5" x2="802.5" y2="274.5"/>
+<rect class="box" x="778.8" y="274.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="802.5" y="287.5">Delete</text>
+<line class="line" x1="910.0" y1="237.5" x2="910.0" y2="342.5"/>
+<line class="line" x1="857.5" y1="342.5" x2="962.5" y2="342.5"/>
+<line class="line" x1="857.5" y1="342.5" x2="857.5" y2="359.5"/>
+<rect class="box" x="833.8" y="359.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="857.5" y="372.5">Add</text>
+<line class="line" x1="910.0" y1="342.5" x2="910.0" y2="359.5"/>
+<rect class="box" x="886.2" y="359.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="910.0" y="372.5">Edit</text>
+<line class="line" x1="962.5" y1="342.5" x2="962.5" y2="359.5"/>
+<rect class="box" x="938.8" y="359.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="962.5" y="372.5">Delete</text>
+<line class="line" x1="1070.0" y1="237.5" x2="1070.0" y2="427.5"/>
+<line class="line" x1="1017.5" y1="427.5" x2="1122.5" y2="427.5"/>
+<line class="line" x1="1017.5" y1="427.5" x2="1017.5" y2="444.5"/>
+<rect class="box" x="993.8" y="444.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="1017.5" y="457.5">Add</text>
+<line class="line" x1="1070.0" y1="427.5" x2="1070.0" y2="444.5"/>
+<rect class="box" x="1046.2" y="444.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="1070.0" y="457.5">Edit</text>
+<line class="line" x1="1122.5" y1="427.5" x2="1122.5" y2="444.5"/>
+<rect class="box" x="1098.8" y="444.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="1122.5" y="457.5">Delete</text>
+<line class="line" x1="1240.0" y1="149.5" x2="1240.0" y2="257.5"/>
+<line class="line" x1="1187.5" y1="257.5" x2="1292.5" y2="257.5"/>
+<line class="line" x1="1187.5" y1="257.5" x2="1187.5" y2="274.5"/>
+<rect class="box" x="1163.8" y="274.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="1187.5" y="287.5">Add</text>
+<line class="line" x1="1240.0" y1="257.5" x2="1240.0" y2="274.5"/>
+<rect class="box" x="1216.2" y="274.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="1240.0" y="287.5">Edit</text>
+<line class="line" x1="1292.5" y1="257.5" x2="1292.5" y2="274.5"/>
+<rect class="box" x="1268.8" y="274.5" width="47.5" height="26.0"/>
+<text class="txt-leaf" x="1292.5" y="287.5">Delete</text>
+</svg>

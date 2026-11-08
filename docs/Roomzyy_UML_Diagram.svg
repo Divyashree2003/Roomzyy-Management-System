@@ -1,0 +1,77 @@
+<svg viewBox="0 0 1050 920" xmlns="http://www.w3.org/2000/svg" style="background:#ffffff; font-family:'Times New Roman', Times, serif;">
+<style>
+  .box { fill:#ffffff; stroke:#111111; stroke-width:1.8; }
+  .line { stroke:#111111; stroke-width:1.8; fill:none; }
+  .title { font-size:17px; font-weight:normal; text-anchor:middle; fill:#000; }
+  .body { font-size:13.5px; text-anchor:start; fill:#000; }
+  .assoc { font-size:15px; font-style:italic; fill:#000; }
+  .mult { font-size:14.5px; fill:#000; }
+</style>
+<rect class="box" x="375" y="30" width="300" height="320"/>
+<line class="line" x1="375" y1="64" x2="675" y2="64"/>
+<text class="title" x="525.0" y="53">Tenant</text>
+<text class="body" x="389" y="84">id: int</text>
+<text class="body" x="389" y="102">name: string</text>
+<text class="body" x="389" y="120">phone: string</text>
+<text class="body" x="389" y="138">email: string</text>
+<text class="body" x="389" y="156">password: string</text>
+<text class="body" x="389" y="174">room_id: int</text>
+<text class="body" x="389" y="192">id_proof_status: string</text>
+<line class="line" x1="375" y1="214" x2="675" y2="214"/>
+<text class="body" x="389" y="234">login()</text>
+<text class="body" x="389" y="252">profile()</text>
+<text class="body" x="389" y="270">selectRoom()</text>
+<text class="body" x="389" y="288">payDirectRent()</text>
+<text class="body" x="389" y="306">requestVisitorPass()</text>
+<text class="body" x="389" y="324">raiseMaintenance()</text>
+<text class="body" x="389" y="342">viewHistory()</text>
+<rect class="box" x="40" y="560" width="280" height="280"/>
+<line class="line" x1="40" y1="594" x2="320" y2="594"/>
+<text class="title" x="180.0" y="583">Rent Payment</text>
+<text class="body" x="52" y="614">id: int</text>
+<text class="body" x="52" y="632">month: string</text>
+<text class="body" x="52" y="650">amount: float</text>
+<text class="body" x="52" y="668">due_date: date</text>
+<text class="body" x="52" y="686">payment_method: string</text>
+<text class="body" x="52" y="704">status: string</text>
+<text class="body" x="52" y="722">transaction_ref: string</text>
+<text class="body" x="52" y="740">receipt_number: string</text>
+<line class="line" x1="40" y1="764" x2="320" y2="764"/>
+<text class="body" x="52" y="782">makeDirectPayment()</text>
+<text class="body" x="52" y="800">downloadReceiptPdf()</text>
+<rect class="box" x="385" y="580" width="280" height="240"/>
+<line class="line" x1="385" y1="614" x2="665" y2="614"/>
+<text class="title" x="525.0" y="603">Session Details</text>
+<text class="body" x="397" y="634">id: int</text>
+<text class="body" x="397" y="652">room_number: string</text>
+<text class="body" x="397" y="670">room_type: string</text>
+<text class="body" x="397" y="688">floor: string</text>
+<text class="body" x="397" y="706">monthly_rent: float</text>
+<text class="body" x="397" y="724">mess_opted: boolean</text>
+<text class="body" x="397" y="742">diet_preference: string</text>
+<text class="body" x="397" y="760">agreement_status: string</text>
+<rect class="box" x="730" y="560" width="280" height="280"/>
+<line class="line" x1="730" y1="594" x2="1010" y2="594"/>
+<text class="title" x="870.0" y="583">History</text>
+<text class="body" x="742" y="614">id: int</text>
+<text class="body" x="742" y="632">date: date</text>
+<text class="body" x="742" y="650">event_type: string</text>
+<text class="body" x="742" y="668">room_number: string</text>
+<text class="body" x="742" y="686">amount_paid: float</text>
+<text class="body" x="742" y="704">payment_method: string</text>
+<text class="body" x="742" y="722">status: string</text>
+<text class="body" x="742" y="740">receipt_number: string</text>
+<text class="body" x="742" y="758">remarks: string</text>
+<line class="line" x1="435" y1="350" x2="205.0" y2="560"/>
+<text class="mult" x="415" y="370">1</text>
+<text class="mult" x="190.0" y="548">*</text>
+<text class="assoc" x="282.5" y="455.0">Manages</text>
+<line class="line" x1="525.0" y1="350" x2="525.0" y2="580"/>
+<text class="mult" x="509.0" y="370">1</text>
+<text class="mult" x="509.0" y="570">*</text>
+<text class="assoc" x="533.0" y="465.0">View</text>
+<line class="line" x1="615" y1="350" x2="845.0" y2="560"/>
+<text class="mult" x="625" y="370">1</text>
+<text class="mult" x="860.0" y="548">*</text>
+<text class="assoc" x="754.5" y="455.0">View</text>
+</svg>

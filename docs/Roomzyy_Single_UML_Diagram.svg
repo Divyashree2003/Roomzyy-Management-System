@@ -1,0 +1,150 @@
+<svg viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg" style="background:#ffffff; font-family:'Times New Roman', Times, serif;">
+<style>
+  .box { fill:#ffffff; stroke:#111111; stroke-width:1.6; }
+  .line { stroke:#111111; stroke-width:1.6; fill:none; }
+  .title { font-size:15px; font-weight:bold; text-anchor:middle; fill:#000; }
+  .body { font-size:11.5px; text-anchor:start; fill:#000; }
+  .assoc { font-size:12px; font-style:italic; fill:#000; }
+  .mult { font-size:12px; fill:#000; }
+</style>
+<rect class="box" x="575" y="30" width="250" height="185"/>
+<line class="line" x1="575" y1="58" x2="825" y2="58"/>
+<text class="title" x="700.0" y="50">User</text>
+<text class="body" x="585" y="74">id: int</text>
+<text class="body" x="585" y="89">email: string</text>
+<text class="body" x="585" y="104">password_hash: string</text>
+<text class="body" x="585" y="119">name: string</text>
+<text class="body" x="585" y="134">role: string</text>
+<text class="body" x="585" y="149">is_active: boolean</text>
+<line class="line" x1="575" y1="168" x2="825" y2="168"/>
+<text class="body" x="585" y="184">login()</text>
+<text class="body" x="585" y="199">resetPassword()</text>
+<rect class="box" x="1050" y="30" width="250" height="185"/>
+<line class="line" x1="1050" y1="58" x2="1300" y2="58"/>
+<text class="title" x="1175.0" y="50">Employee</text>
+<text class="body" x="1060" y="74">id: int</text>
+<text class="body" x="1060" y="89">user_id: int</text>
+<text class="body" x="1060" y="104">role: string</text>
+<text class="body" x="1060" y="119">salary: float</text>
+<text class="body" x="1060" y="134">default_shift: string</text>
+<text class="body" x="1060" y="149">active: boolean</text>
+<line class="line" x1="1050" y1="168" x2="1300" y2="168"/>
+<text class="body" x="1060" y="184">markAttendance()</text>
+<text class="body" x="1060" y="199">assignDuty()</text>
+<rect class="box" x="100" y="360" width="250" height="200"/>
+<line class="line" x1="100" y1="388" x2="350" y2="388"/>
+<text class="title" x="225.0" y="380">Room</text>
+<text class="body" x="110" y="404">id: int</text>
+<text class="body" x="110" y="419">room_number: string</text>
+<text class="body" x="110" y="434">room_type: string</text>
+<text class="body" x="110" y="449">floor: string</text>
+<text class="body" x="110" y="464">capacity: int</text>
+<text class="body" x="110" y="479">monthly_rent: float</text>
+<text class="body" x="110" y="494">status: string</text>
+<line class="line" x1="100" y1="513" x2="350" y2="513"/>
+<text class="body" x="110" y="529">addRoom()</text>
+<text class="body" x="110" y="544">allocateBed()</text>
+<text class="body" x="110" y="559">vacateBed()</text>
+<rect class="box" x="575" y="360" width="250" height="220"/>
+<line class="line" x1="575" y1="388" x2="825" y2="388"/>
+<text class="title" x="700.0" y="380">Tenant</text>
+<text class="body" x="585" y="404">id: int</text>
+<text class="body" x="585" y="419">user_id: int</text>
+<text class="body" x="585" y="434">room_id: int</text>
+<text class="body" x="585" y="449">id_proof_status: string</text>
+<text class="body" x="585" y="464">emergency_contact: string</text>
+<text class="body" x="585" y="479">status: string</text>
+<line class="line" x1="575" y1="498" x2="825" y2="498"/>
+<text class="body" x="585" y="514">selectRoom()</text>
+<text class="body" x="585" y="529">payDirectRent()</text>
+<text class="body" x="585" y="544">optInMeal()</text>
+<text class="body" x="585" y="559">requestVisitorPass()</text>
+<rect class="box" x="1050" y="360" width="250" height="215"/>
+<line class="line" x1="1050" y1="388" x2="1300" y2="388"/>
+<text class="title" x="1175.0" y="380">RentPayment (Direct)</text>
+<text class="body" x="1060" y="404">id: int</text>
+<text class="body" x="1060" y="419">tenant_id: int</text>
+<text class="body" x="1060" y="434">month: string</text>
+<text class="body" x="1060" y="449">amount: float</text>
+<text class="body" x="1060" y="464">due_date: date</text>
+<text class="body" x="1060" y="479">payment_method: string</text>
+<text class="body" x="1060" y="494">status: string</text>
+<text class="body" x="1060" y="509">receipt_number: string</text>
+<line class="line" x1="1050" y1="528" x2="1300" y2="528"/>
+<text class="body" x="1060" y="544">recordDirectPayment()</text>
+<text class="body" x="1060" y="559">generateReceiptPdf()</text>
+<rect class="box" x="100" y="720" width="250" height="200"/>
+<line class="line" x1="100" y1="748" x2="350" y2="748"/>
+<text class="title" x="225.0" y="740">MealAttendance</text>
+<text class="body" x="110" y="764">id: int</text>
+<text class="body" x="110" y="779">tenant_id: int</text>
+<text class="body" x="110" y="794">date: date</text>
+<text class="body" x="110" y="809">meal_type: string</text>
+<text class="body" x="110" y="824">opted_in: boolean</text>
+<text class="body" x="110" y="839">present: boolean</text>
+<text class="body" x="110" y="854">diet: string</text>
+<line class="line" x1="100" y1="873" x2="350" y2="873"/>
+<text class="body" x="110" y="889">optInMeal()</text>
+<text class="body" x="110" y="904">markAttendance()</text>
+<rect class="box" x="575" y="720" width="250" height="200"/>
+<line class="line" x1="575" y1="748" x2="825" y2="748"/>
+<text class="title" x="700.0" y="740">VisitorPass</text>
+<text class="body" x="585" y="764">id: int</text>
+<text class="body" x="585" y="779">tenant_id: int</text>
+<text class="body" x="585" y="794">visitor_name: string</text>
+<text class="body" x="585" y="809">phone: string</text>
+<text class="body" x="585" y="824">visit_date: date</text>
+<text class="body" x="585" y="839">pass_code: string</text>
+<text class="body" x="585" y="854">approval_status: string</text>
+<line class="line" x1="575" y1="873" x2="825" y2="873"/>
+<text class="body" x="585" y="889">generatePass()</text>
+<text class="body" x="585" y="904">verifyQrCode()</text>
+<text class="body" x="585" y="919">markCheckIn()</text>
+<rect class="box" x="1050" y="720" width="250" height="210"/>
+<line class="line" x1="1050" y1="748" x2="1300" y2="748"/>
+<text class="title" x="1175.0" y="740">MaintenanceRequest</text>
+<text class="body" x="1060" y="764">id: int</text>
+<text class="body" x="1060" y="779">tenant_id: int</text>
+<text class="body" x="1060" y="794">room_id: int</text>
+<text class="body" x="1060" y="809">category: string</text>
+<text class="body" x="1060" y="824">description: string</text>
+<text class="body" x="1060" y="839">priority: string</text>
+<text class="body" x="1060" y="854">status: string</text>
+<text class="body" x="1060" y="869">assigned_to: int</text>
+<line class="line" x1="1050" y1="888" x2="1300" y2="888"/>
+<text class="body" x="1060" y="904">logComplaint()</text>
+<text class="body" x="1060" y="919">assignStaff()</text>
+<text class="body" x="1060" y="934">resolveIssue()</text>
+<line class="line" x1="700.0" y1="215" x2="700.0" y2="360"/>
+<text class="mult" x="708.0" y="233">1</text>
+<text class="mult" x="708.0" y="350">0..1</text>
+<text class="assoc" x="710.0" y="287.5">Identifies</text>
+<line class="line" x1="825" y1="110" x2="1050" y2="110"/>
+<text class="mult" x="835" y="102">1</text>
+<text class="mult" x="1020" y="102">0..1</text>
+<text class="assoc" x="917.5" y="105">Employs</text>
+<line class="line" x1="350" y1="450" x2="575" y2="450"/>
+<text class="mult" x="360" y="442">1</text>
+<text class="mult" x="555" y="442">*</text>
+<text class="assoc" x="442.5" y="445">Occupies</text>
+<line class="line" x1="825" y1="450" x2="1050" y2="450"/>
+<text class="mult" x="835" y="442">1</text>
+<text class="mult" x="1030" y="442">*</text>
+<text class="assoc" x="925.5" y="445">Pays</text>
+<line class="line" x1="700.0" y1="580" x2="700.0" y2="720"/>
+<text class="mult" x="708.0" y="598">1</text>
+<text class="mult" x="708.0" y="710">*</text>
+<text class="assoc" x="710.0" y="650.0">Requests</text>
+<line class="line" x1="615" y1="580" x2="330" y2="720"/>
+<text class="mult" x="595" y="598">1</text>
+<text class="mult" x="340" y="710">*</text>
+<text class="assoc" x="447.5" y="640.0">Opts-in</text>
+<line class="line" x1="785" y1="580" x2="1070" y2="720"/>
+<text class="mult" x="795" y="598">1</text>
+<text class="mult" x="1060" y="710">*</text>
+<text class="assoc" x="937.5" y="640.0">Raises</text>
+<line class="line" x1="1175.0" y1="215" x2="1175.0" y2="720"/>
+<text class="mult" x="1183.0" y="233">1</text>
+<text class="mult" x="1183.0" y="710">*</text>
+<text class="assoc" x="1185.0" y="467.5">Resolves</text>
+</svg>
